@@ -5,7 +5,7 @@ let getComputerChoice = () => {
     // Get random number
     let computerChoice = Math.floor(Math.random() * 3);
 
-    let resultStr;
+    let resultStr = "";
 
     // Conditional checks
     if (!choice) { // Return rock on 0
