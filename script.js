@@ -52,7 +52,8 @@ let playGame = () => {
         }
     };
 
-    for (let round = 0; round < 5; round++) {
+    // Loop game code until 5 rounds completed (excluding draws)
+    while ((humanScore + computerScore < 5)) {
         playRound(getHumanChoice(), getComputerChoice());
     }
 
