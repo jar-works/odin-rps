@@ -1,3 +1,5 @@
+// NOTE: Using arrow functions to get more used to them.
+
 let getComputerChoice = () => {
     // Get random number
     let computerChoice = Math.floor(Math.random() * 3);
@@ -20,7 +22,6 @@ let getComputerChoice = () => {
 
 let getHumanChoice = () => {
     // Get user input through browser window.
-    // Convert string to int to later pass into choice reader
     let humanChoice = prompt("Enter rock, paper, or scissors");
 
     // Need to make user input lowercase for comparisons later
